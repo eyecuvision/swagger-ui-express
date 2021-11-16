@@ -1,6 +1,6 @@
 {
-  "name": "swagger-ui-express",
-  "version": "4.1.6",
+  "name": "@eyecuvision/swagger-ui-express",
+  "version": "1.0.0",
   "description": "Swagger UI Express",
   "main": "./index.js",
   "files": [
@@ -36,19 +36,19 @@
     "phantom": "2.1.21"
   },
   "author": {
-    "name": "Stephen Scott",
-    "email": "scottie1984@gmail.com"
+    "name": "Oguz Vuruskaner",
+    "email": "oguzvuruskaner@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:scottie1984/swagger-ui-express.git"
+    "url": "https://github.com/eyecuvision/swagger-ui-express"
   },
   "license": "MIT",
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/scottie1984/swagger-ui-express/issues"
+    "url": "https://github.com/eyecuvision/swagger-ui-express/issues"
   },
-  "homepage": "https://github.com/scottie1984/swagger-ui-express",
+  "homepage": "https://github.com/eyecuvision/swagger-ui-express",
   "dependencies": {
     "swagger-ui-dist": "^3.18.1"
   },

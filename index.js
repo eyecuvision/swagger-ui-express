@@ -215,9 +215,14 @@ var swaggerInitFunction = function (swaggerDoc, opts) {
 }
 
 var swaggerAssetMiddleware = options => {
-  var opts = options || {}
+
+  const opts = options || {}
   opts.index = false
-  return express.static(swaggerUi.getAbsoluteFSPath(), opts)
+  let absolutePath 
+  
+  if(opts.swaggerAbsolutePath) absolutePath = opts.swaggerAbsolutePath
+  else absolutePath = swaggerUi.getAbsoluteFSPath()
+  return express.static(absolutePath, opts)
 }
 
 var serveFiles = function (swaggerDoc, opts) {
